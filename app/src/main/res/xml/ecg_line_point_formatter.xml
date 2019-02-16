@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config
+    linePaint.strokeWidth="3dp"
+    linePaint.color="@color/yellow"
+    vertexPaint.color="@color/yellow"
+    vertexPaint.strokeWidth="2dp"
+    fillPaint.color="@color/trans"
+    pointLabelFormatter.textPaint.color="@color/trans"/>

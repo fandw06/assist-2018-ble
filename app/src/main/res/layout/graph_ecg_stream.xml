@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:ap="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/listView">
+
+    <com.androidplot.xy.XYPlot
+        style="@style/APDefacto.Dark"
+        android:id="@+id/plot_ecg"
+        android:background="#ff333333"
+        android:layout_width="fill_parent"
+        android:layout_height="280dip"
+        android:layout_marginLeft="1.0dip"
+        android:layout_marginTop="1.0dip"
+        android:layout_marginRight="1.0dip"
+
+        ap:title="ECG"
+        ap:titleTextSize="15dp"
+        ap:domainTitle="Time"
+        ap:domainTitleTextSize="10dp"
+        ap:rangeTitle="v"
+        ap:rangeTitleTextSize="10dp"
+
+        ap:lineLabels="left|bottom"
+        ap:lineLabelRotationBottom="-45"
+        ap:lineLabelTextSizeTop="8dp"
+        ap:lineLabelTextSizeBottom="8dp"
+        ap:lineLabelTextSizeLeft="8dp"
+        ap:lineLabelTextSizeRight="8dp"
+
+        ap:graphMarginTop="5dp"
+        ap:graphMarginBottom="15dp"
+        ap:graphMarginLeft="5dp"
+        ap:graphMarginRight="5dp"
+
+        ap:renderMode="use_background_thread"/>
+</LinearLayout>
